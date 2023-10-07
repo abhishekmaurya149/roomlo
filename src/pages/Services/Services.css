@@ -1,0 +1,29 @@
+
+/* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+ 
+ /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+ h3{
+    color: #0b011fde;
+ }
+ .card{
+    border-start-start-radius: 56px !important;
+    border-end-end-radius: 56px !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px !important;
+    cursor: pointer;
+ }
+ .card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset  !important;
+    cursor: pointer;
+ }
+.card_Container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* cl is main div of card */
+.cl{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
