@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Roboto&display=swap');
+
+.mainDiv{
+    max-width: 1150px !important;
+    width: 90% !important;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-family: 'AR One Sans', sans-serif;
+}
+.box{
+    max-width: 1150px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.leftBox{
+    display: flex;
+    flex-direction: column !important;
+    gap: 30px;
+    /* flex-wrap: wrap; */
+    width: 500px;
+    height: 200px;
+    /* background: #000; */
+    color: #020420;
+}
+@media only screen and (max-width:525px) {
+    .box{
+        display: flex;
+        flex-direction: row !important;
+        gap: 48px;
+    }   
+}
+@media only screen and (max-width:448px) {
+    .box{   
+        gap: 115px;
+    }   
+}
+.box1, .box2{
+    display: flex;
+    flex-direction: row !important;    
+    /* height: 48%; */
+    overflow: none;
+}
+
+.box1{
+    display: flex;
+    /* flex-direction: row !important; */
+    gap: 20px;
+    /* background: #8d3535; */
+}
+.content{
+    margin-left: 100px;
+}
+.box2{
+    display: flex;
+    /* flex-direction: row !important; */
+    gap: 20px;
+    /* background: #410386; */
+}
+
+.rightBox{
+    width: 500px;
+    display: flex;
+    flex-direction: column !important;
+    gap: 30px;
+    color: #020420;
+}
+
+.box3{
+    display: flex;
+    /* flex-direction: row !important; */
+    gap: 20px;
+    /* background: #e7a108; */
+}
+.box4{
+    display: flex;
+    /* flex-direction: row !important; */
+    gap: 20px;
+    /* background: #0bac13; */
+}
+
+.imgDiv img{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+p{
+    text-align: justify !important;
+}

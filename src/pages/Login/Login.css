@@ -1,0 +1,14 @@
+.leftside{
+    display: grid;
+    place-items: center;
+}
+.loginImg{
+    width: 260px;
+    height: 260px;
+    padding: 20PX;
+    background-size: 100% 100% !important;
+}
+
+.rightside{ 
+    padding: 20px !important;
+}

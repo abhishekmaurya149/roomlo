@@ -1,0 +1,35 @@
+.main_div_of_all_div{
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-around;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    /* border: 2px dashed red !important; */
+}
+.leftside .subHeading{
+    margin-right: 160px !important;
+    padding-left: 0px !important;
+    text-align: left !important;
+    /* border: 2px dashed red !important; */
+}
+.leftsideImg{
+    width: 260px;
+    height: 220px;
+    background-size: 100% 100% !important;
+    border: 2px solid #090116;
+    border-radius: 96% 4% 95% 5% / 21% 77% 23% 79% !important;
+}
+
+.rightside{ 
+    padding: 20px !important;
+    /* background-color: green; */
+}
+
+
+.selectBox Label{
+    min-width: 300px !important;
+}

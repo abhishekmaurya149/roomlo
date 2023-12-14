@@ -1,0 +1,61 @@
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 900px !important;
+    width: 90% !important;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; 
+}
+/* .m{
+    flex-grow: 1;
+} */
+.member1, .member2, .member3{
+    background-color: #e6e6e6 !important;
+}
+.member1, .member2, .member3{
+    border-radius: 50% !important;
+     /* border-start-start-radius: 56px !important;
+    border-end-end-radius: 56px !important; */
+    box-shadow: rgba(149, 149, 184, 0.25) 0px 30px 60px -12px inset,
+     rgba(216, 216, 216, 0.3) 0px 18px 36px -18px inset !important;    
+}
+.member1:hover, .member2:hover, .member3:hover{
+    box-shadow: #00000040 0px 54px 55px, 
+    #3b38381f 0px -12px 30px, 
+    #0000001f 0px 4px 6px,
+     rgba(0, 0, 0, 0.17) 0px 12px 13px,
+      rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+}
+
+@media only screen and (max-width: 530px){
+   
+    .m{
+        margin-left: 80px !important;
+    }
+}
+
+.cardContent h6{
+    font-weight: bold !important;
+}
+.cardContent p{
+    /* color: #6f706f !important; */
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.icons{
+    max-width: 120px;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons svg{ 
+    font-size: 30px;
+    cursor: pointer;
+}
